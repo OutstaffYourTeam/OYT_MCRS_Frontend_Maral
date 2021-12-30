@@ -1,0 +1,38 @@
+{
+  "models" : [
+    {"id" : 1 , "name" : "Female 3D Model" , "img" : "./assets/models/female/female.png"},
+    {"id" : 2 , "name" : "Chair 3D model" , "img" : "./assets/models/chair/wood_bump.jpg"},
+    {"id" : 3 , "name" : "Table 3D model" , "img" : "./assets/models/Table/Gio_Normal.jpg"}
+
+  ],
+  "1" : {
+    "id" : 1 ,
+    "name" : "name1" ,
+    "obj" : "/female/female.obj",
+    "controls" : {
+      "autoRotate" : false,
+      "enableZoom" :true,
+      "enablePan" : false
+    }
+  },
+  "2": {
+    "id" : 2 ,
+    "name" : "name2" ,
+    "obj" : "/chair/chair.obj",
+    "controls" : {
+      "autoRotate" : true,
+      "enableZoom" :true,
+      "enablePan" : true
+    }
+  },
+  "3": {
+    "id" : 3 ,
+    "name" : "name3" ,
+    "obj" : "/Table/table.obj",
+    "controls" : {
+      "autoRotate" : false,
+      "enableZoom" : true,
+      "enablePan" : true
+    }
+  }
+}
